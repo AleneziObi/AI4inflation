@@ -16,7 +16,7 @@ const SpendingForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('User spending:', spending);
-    // Call API or calculate inflation impact
+    // Call API/calculate inflation impact
   };
 
   return (
