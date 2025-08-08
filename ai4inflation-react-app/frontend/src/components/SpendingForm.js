@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const categories = ['Food', 'Housing', 'Transportation'];
 
 const SpendingForm = () => {
+
   const [spending, setSpending] = useState({
     Food: '',
     Housing: '',
@@ -37,6 +38,7 @@ const SpendingForm = () => {
       <button type="submit">Analyze Inflation Impact</button>
     </form>
   );
+  
 };
 
 export default SpendingForm;

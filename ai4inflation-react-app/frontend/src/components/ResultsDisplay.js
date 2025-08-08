@@ -1,7 +1,9 @@
 import React from 'react';
 import CategoryChart from './CategoryChart';
 
+// 
 const ResultsDisplay = ({ results }) => {
+
   return (
     <section className="results-display">
       <h2>Inflation Impact</h2>
@@ -10,6 +12,7 @@ const ResultsDisplay = ({ results }) => {
       <CategoryChart />
     </section>
   );
+
 };
 
 export default ResultsDisplay;
